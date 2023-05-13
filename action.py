@@ -30,7 +30,7 @@ def send_mail(log):
     exit(1)
 
 
-def main(user: str, pwd: str, mail_enable: bool):
+def main(user: str, pwd: str, mail_enable: False):
     log = ""
     try:
         print_msg()
