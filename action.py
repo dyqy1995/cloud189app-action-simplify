@@ -30,7 +30,7 @@ def send_mail(log):
     exit(1)
 
 
-def main(user: str, pwd: str, mail_enable: False):
+def main(user: str, pwd: str, mail_enable: bool):
     log = ""
     try:
         print_msg()
@@ -80,7 +80,7 @@ if __name__ == '__main__':
     PASSWORD = 'hjs8881580'
     
     # 启用邮箱发信
-    mail_enable = True
+    mail_enable = False
     
     if not USERNAME or not PASSWORD:
         print('你没有添加任何账户')
